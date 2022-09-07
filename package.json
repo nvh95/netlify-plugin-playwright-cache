@@ -1,0 +1,29 @@
+{
+  "name": "netlify-plugin-playwright-cache",
+  "version": "0.0.1",
+  "description": "Persist the Playwright executables between Netlify builds.",
+  "keywords": [
+    "netlify",
+    "netlify-plugin",
+    "playwright",
+    "custom cache"
+  ],
+  "type": "module",
+  "homepage": "https://github.com/nvh95/netlify-plugin-playwright-cache",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nvh95/netlify-plugin-playwright-cache.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Hung Viet Nguyen",
+    "url": "https://github.com/nvh95"
+  },
+  "main": "index.js",
+  "scripts": {
+    "sort": "npx sort-package-json"
+  },
+  "bug": {
+    "url": "https://github.com/nvh95/netlify-plugin-playwright-cache/issues"
+  }
+}
