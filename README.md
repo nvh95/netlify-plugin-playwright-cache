@@ -18,7 +18,7 @@ When you install `playwright-chromium`, it downloads Chromium executables to a c
 11:33:48 PM: ╚═════════════════════════════════════════════════════════════════════════╝
 ```
 
-This plugins fix the above issue by caching the Playwright executables (Chromium, ffmpeg) between builds.
+This plugins fixes the above issue by caching the Playwright executables (Chromium, ffmpeg...) between builds.
 
 ## Installation
 
@@ -46,4 +46,3 @@ Update `netlify.toml` to include the plugin:
 Remember to **Clear cache and retry deploy** after adding the plugin.
 
 <img src="https://user-images.githubusercontent.com/8603085/188937674-a8850b77-94ec-4a20-8aa0-8f17e9df754e.png" width="400" />
-
