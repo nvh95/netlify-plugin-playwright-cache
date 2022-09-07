@@ -45,4 +45,5 @@ Update `netlify.toml` to include the plugin:
 
 Remember to **Clear cache and retry deploy** after adding the plugin.
 
-<!-- TODO: Add image -->
+<img src="https://user-images.githubusercontent.com/8603085/188937674-a8850b77-94ec-4a20-8aa0-8f17e9df754e.png" width="400" />
+
