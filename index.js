@@ -1,5 +1,5 @@
-const path = require("path");
-const os = require("os");
+import path from "path";
+import os from "os";
 
 // https://github.com/microsoft/playwright/blob/b6bc8b654d4bee7460256b65b1cf4eb3f1b889ad/packages/playwright-core/src/server/registry/index.ts#L229-L230
 const CACHE_LOCATION = path.join(
