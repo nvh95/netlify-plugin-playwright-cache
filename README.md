@@ -1,6 +1,6 @@
 # Netlify Plugin Playwright Cache
 
-Persist the Playwright executable between Netlify builds.
+Persist the Playwright executables between Netlify builds.
 
 ## Why `netlify-plugin-playwright-cache`
 
@@ -22,7 +22,13 @@ This plugins fixes the above issue by caching the Playwright executables (Chromi
 
 ## Installation
 
-You can install as a dependency of your project:
+You can install `netlify-plugin-playwright-cache` by one of the following ways:
+
+1. Install directly from Netlify Dashboard:
+
+<img src="https://user-images.githubusercontent.com/8603085/189162327-eb9eba2a-c0f9-49c6-a93b-a28b549423ee.png" width="900" />
+
+2. Install as a dependency of your project:
 
 ```bash
 npm install --save-dev netlify-plugin-playwright-cache
@@ -32,17 +38,15 @@ yarn add -D netlify-plugin-playwright-cache
 pnpm add -D netlify-plugin-playwright-cache
 ```
 
-Installation via the Netlify UI is coming soon.
-
-## Configuration
-
-Update `netlify.toml` to include the plugin:
+Then update `netlify.toml` to include the plugin:
 
 ```toml
 [[plugins]]
   package = "netlify-plugin-playwright-cache"
 ```
 
+## Usage
+
 Remember to **Clear cache and retry deploy** after adding the plugin.
 
-<img src="https://user-images.githubusercontent.com/8603085/188937674-a8850b77-94ec-4a20-8aa0-8f17e9df754e.png" width="400" />
+<img src="https://user-images.githubusercontent.com/8603085/188937674-a8850b77-94ec-4a20-8aa0-8f17e9df754e.png" width="450" />
