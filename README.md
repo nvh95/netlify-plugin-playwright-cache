@@ -1,4 +1,7 @@
-# Netlify Plugin Playwright Cache
+# 🤖 Netlify Plugin Playwright Cache
+
+[![npm version](https://img.shields.io/npm/v/netlify-plugin-playwright-cache)](https://www.npmjs.com/package/netlify-plugin-playwright-cache)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)
 
 Persist the Playwright executables between Netlify builds.
 
